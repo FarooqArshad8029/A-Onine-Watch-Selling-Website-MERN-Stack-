@@ -1,0 +1,30 @@
+#chat3 .form-control {
+    border-color: transparent;
+  }
+  
+  #chat3 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .badge-dot {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-left: 2.9rem;
+    margin-top: -0.75rem;
+  }
+  #chat3 {
+    position: fixed;
+    bottom: 50px; /* Adjust the distance from the bottom as needed */
+    right: 5px; /* Adjust the distance from the right as needed */
+    width: 1000px; /* Adjust the width as needed */
+    z-index: 9999; /* Ensure the messaging window appears above other content */
+  }
+  /* mdscroller bar functionality */
+  .chat-card-body {
+    position: relative;
+    min-height: 350px;
+    min-width: 200px;
+    overflow-y: auto;
+  }
